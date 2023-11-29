@@ -78,7 +78,7 @@ a {
 .site-name {
   justify-self: flex-start;
   margin-right: auto;
-  font-size: clamp(15px, 2.2vmin, 1.6rem);
+  font-size: clamp(15px, 2.8vmin, 1.6rem);
   color: white;
 }
 
