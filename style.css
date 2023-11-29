@@ -137,7 +137,7 @@ a {
 }
 
 .event,
-a {
+.eventorals > a {
   width: min(45%, 3.7in);
   padding: 8px;
   position: relative;
