@@ -139,11 +139,14 @@ a {
 .event,
 .eventorals > a {
   width: min(45%, 3.7in);
-  padding: 8px;
   position: relative;
   border-radius: 4px;
   cursor: pointer;
   transition: all 300ms ease;
+}
+
+.event {
+  padding: 8px;
 }
 
 .event:hover {
