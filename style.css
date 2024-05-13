@@ -1,183 +1,183 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
-  margin: 0rem;
-  font-family: "Segoe UI", sans-serif;
+    height: 100vh;
+    margin: 0rem;
+    font-family: "Segoe UI", sans-serif;
 }
 
 .main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #header {
-  width: 100%;
-  height: 45%;
-  margin: 0rem;
-  position: relative;
+    width: 100%;
+    height: 45%;
+    margin: 0rem;
+    position: relative;
 }
 
 #img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center 30%;
-  background-size: cover;
-  background-image: url(https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center 30%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80);
 }
 
 #header > .text {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: grid;
-  place-items: center;
-  color: white;
-  font-size: clamp(2rem, 8vw, 6rem);
-  background-color: #00000070;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: clamp(2rem, 8vw, 6rem);
+    background-color: #00000070;
 }
 
 p,
 a {
-  margin: 0vmin;
-  font-size: max(10px, 2.2vmin);
-  text-decoration: none;
+    margin: 0vmin;
+    font-size: max(10px, 2.2vmin);
+    text-decoration: none;
 }
 
 #toolbar {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 1em;
-  width: 100%;
-  height: auto;
-  padding: min(2.2vmin, 1.1em) 3vmin;
-  transition: all 200ms ease;
-  z-index: 4;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+    width: 100%;
+    height: auto;
+    padding: min(2.2vmin, 1.1em) 3vmin;
+    transition: all 200ms ease;
+    z-index: 4;
 }
 
 #toolbar:hover {
-  box-shadow: 0px 0px 2rem black;
+    box-shadow: 0px 0px 2rem black;
 }
 
 .scrolled {
-  background-color: #151515;
+    background-color: #151515;
 }
 
 .scrolled > .active-btn,
 .scrolled > .buttons:hover {
-  color: fuchsia;
+    color: fuchsia;
 }
 
 .site-name {
-  justify-self: flex-start;
-  margin-right: auto;
-  font-size: clamp(15px, 2.8vmin, 1.6rem);
-  color: white;
+    justify-self: flex-start;
+    margin-right: auto;
+    font-size: clamp(15px, 2.8vmin, 1.6rem);
+    color: white;
 }
 
 .info > .title {
-  font-weight: 400;
-  color: purple;
-  margin: 0rem;
-  font-size: max(15px, 3.5vmin);
+    font-weight: 400;
+    color: purple;
+    margin: 0rem;
+    font-size: max(15px, 3.5vmin);
 }
 
 .info {
-  text-align: center;
-  display: flex;
-  gap: 5vmin;
-  margin-top: 17vh;
-  flex-direction: column;
-  width: min(60%, 9.5in);
+    text-align: center;
+    display: flex;
+    gap: 5vmin;
+    margin-top: 17vmin;
+    flex-direction: column;
+    width: min(60%, 9.5in);
 }
 
 .info > img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .info > .caption {
-  font-size: max(1.6vmin, 5px);
-  margin-top: -2vmin;
+    font-size: max(1.6vmin, 5px);
+    margin-top: -2vmin;
 }
 
 .done > .caption {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .buttons {
-  color: #e0e0e0;
-  cursor: pointer;
-  transition: color 200ms ease;
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: color 200ms ease;
 }
 
 .buttons:hover {
-  color: white;
+    color: white;
 }
 
 .active-btn {
-  font-weight: bolder;
-  color: white;
+    font-weight: bolder;
+    color: white;
 }
 
 .eventorals {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2em;
-  margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 1rem;
 }
 
 .event,
 .eventorals > a {
-  width: min(45%, 3.7in);
-  position: relative;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 300ms ease;
+    width: min(45%, 3.7in);
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
 .event {
-  padding: 8px;
+    padding: 8px;
 }
 
 .event:hover {
-  transform: translateY(-5%);
-  box-shadow: 0px 15px 25px black;
+    transform: translateY(-5%);
+    box-shadow: 0px 15px 25px black;
 }
 
 .event > img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  transition: filter 200ms ease;
-  border-radius: inherit;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: filter 200ms ease;
+    border-radius: inherit;
 }
 
 .event > .name {
-  margin-top: 1em;
-  font-size: max(2.9vmin, 10px);
+    margin-top: 1em;
+    font-size: max(2.9vmin, 10px);
 }
 
 .event > .caption {
-  margin: 1.5em;
+    margin: 1.5em;
 }
 
 a {
-  padding: 0vmax;
-  text-decoration: none;
-  color: black;
+    padding: 0vmax;
+    text-decoration: none;
+    color: black;
 }
 
 .link {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
